@@ -61,6 +61,7 @@ MIDDLEWARE = [
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "https://wayfarewondersdjango.onrender.com",
+    "https://wayfare-wonders-django.vercel.app",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
