@@ -141,6 +141,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # CSRF_COOKIE_SAMESITE='Strict'
 # SESSION_COOKIE_SAMESITE='Strict'
 
+SESSION_COOKIE_SAMESITE = "Lax"  # or 'Strict' depending on your needs
+CSRF_COOKIE_SAMESITE = "Lax"  # or 'Strict'
+
+
 CSRF_HTTP_ONLY = False
 # SESSION_HTTP_ONLY=True
 
